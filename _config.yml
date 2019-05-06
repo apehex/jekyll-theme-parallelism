@@ -1,0 +1,49 @@
+# Site settings
+title: Twenty
+subtitle: by HTML5 UP
+description: >- # this means to ignore newlines until "baseurl:"
+  A responsive site template designed by HTML5 Up<br>
+  and released under the Creative Commons.
+
+# Contact information
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
+email: youremailaddress@gmail.com
+
+# Social settings
+500px_url: https://github.com/moodule
+facebook_url: https://github.com/moodule
+github_url: https://github.com/moodule
+gitlab_url: https://github.com/moodule
+instagram_url: https://github.com/moodule
+linkedin_url: https://github.com/moodule
+pinterest_url: https://github.com/moodule
+slack_url: https://github.com/moodule
+twitter_url: https://github.com/moodule
+
+# Optional elements
+logo_url: /assets/images/logo.svg
+legal_terms_url: /legal-terms
+privacy_policy_url: /privacy-policy
+
+# Collections
+collections:
+  articles:
+    output: false
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+sass:
+  style: compressed
+
+# Publication settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+author: David Mougeolle
+
+# Exclude from processing

@@ -1,0 +1,51 @@
+/* Container */
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+
+    &.medium {
+        width: (1400px * 0.75);
+    }
+
+    @include breakpoint('<=wide') {
+        width: 1200px;
+
+        &.medium {
+            width: (1200px * 0.75);
+        }
+    }
+
+    @include breakpoint('<=normal') {
+        width: 960px;
+
+        &.medium {
+            width: (980px * 0.75);
+        }
+    }
+
+    @include breakpoint('<=narrow') {
+        width: 95%;
+
+        &.medium {
+            width: (95% * 0.75);
+        }
+    }
+
+    @include breakpoint('<=narrower') {
+        width: 95%;
+
+        &.medium {
+            width: 95%;
+        }
+    }
+
+    @include breakpoint('<=mobile') {
+        width: 100%;
+
+        &.medium {
+            width: 100%;
+        }
+    }
+}

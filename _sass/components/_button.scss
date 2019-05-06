@@ -1,0 +1,51 @@
+/* Button */
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+    @include vendor('appearance', 'none');
+    @include vendor('transition', ('color 0.2s ease-in-out', 'border-color 0.2s ease-in-out', 'background-color 0.2s ease-in-out'));
+    background: none;
+    border: solid 1px;
+    border-radius: 0;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    min-width: 18em;
+    padding: 0 0.75em;
+    line-height: 3.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+        background: rgba(188,202,206,0.15);
+        border-color: inherit;
+    }
+
+    &.primary {
+        background: _palette(one, bg);
+        border-color: _palette(one, bg);
+        color: _palette(one, fg) !important;
+
+        &:hover {
+            background: lighten(_palette(one, bg), 5) !important;
+            border-color: lighten(_palette(one, bg), 5) !important;
+        }
+    }
+
+    &.fit {
+        width: 100%;
+    }
+
+    &.small {
+        font-size: 0.7em;
+        min-width: 14em;
+        padding: 0.5em 0;
+    }
+}
