@@ -1,5 +1,5 @@
 # Site settings
-title: Twenty
+title: Parallelism
 subtitle: by HTML5 UP
 description: >- # this means to ignore newlines until "baseurl:"
   A responsive site template designed by HTML5 Up<br>
@@ -44,6 +44,6 @@ sass:
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-author: apehex
+author: Untitled
 
 # Exclude from processing
