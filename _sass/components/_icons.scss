@@ -1,0 +1,45 @@
+/* Icons */
+
+ul.icons {
+    list-style: none;
+    padding-left: 0;
+    cursor: default;
+
+    li {
+        display: inline-block;
+        line-height: 1em;
+        padding-left: 0.5em;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+}
+
+/* Featured Icons */
+
+ul.featured-icons {
+    cursor: default;
+    margin: -0.75em 0 0 0;
+    opacity: 0.35;
+    overflow: hidden;
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+
+    li {
+        display: block;
+        float: left;
+        text-align: center;
+        width: 50%;
+        padding-left: 0;
+
+        .icon {
+            display: inline-block;
+            font-size: 6.25em;
+            height: 1.25em;
+            line-height: 1.25em;
+            width: 1em;
+        }
+    }
+}

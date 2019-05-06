@@ -1,0 +1,14 @@
+menu:
+  - title: Welcome
+    url: /
+  - title: Layouts
+    url: /
+    menu:
+    - title: Left-Sidebar
+      url: /left-sidebar/
+    - title: No-Sidebar
+      url: /no-sidebar/
+    - title: Right-Sidebar
+      url: /right-sidebar/
+  - title: Contact
+    url: /contact/

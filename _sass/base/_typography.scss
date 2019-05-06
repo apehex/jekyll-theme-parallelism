@@ -1,0 +1,75 @@
+body, input, select, textarea {
+    color: _palette(fg);
+    font-family: 'Lato', sans-serif;
+    font-size: 15pt;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    line-height: 1.75em;
+}
+
+a {
+    @include vendor('transition', ('color 0.2s ease-in-out', 'border-color 0.2s ease-in-out', 'background-color 0.2s ease-in-out'));
+    color: darken(_palette(one, bg), 20);
+    text-decoration: none;
+    border-bottom: dotted 1px;
+
+    &:hover {
+        border-bottom-color: transparent;
+    }
+}
+
+strong, b {
+    font-weight: 400;
+}
+
+p, ul, ol, dl, table, blockquote {
+    margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        border: 0;
+    }
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-size: 1.15em;
+    letter-spacing: 0.025em;
+}
+
+sub {
+    font-size: 0.8em;
+    position: relative;
+    top: 0.5em;
+}
+
+sup {
+    font-size: 0.8em;
+    position: relative;
+    top: -0.5em;
+}
+
+hr {
+    border-top: solid 1px _palette(border);
+    border: 0;
+    margin-bottom: 1.5em;
+}
+
+blockquote {
+    border-left: solid 0.5em _palette(border);
+    font-style: italic;
+    padding: 1em 0 1em 2em;
+}
