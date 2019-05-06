@@ -1,23 +1,23 @@
-# Twenty - Jekyll theme
+# Parallelism - Jekyll theme
 
-> A Jekyll version of the "Twenty" theme by [HTML5 UP][html5up].
+> A Jekyll version of the "Parallelism" theme by [HTML5 UP][html5up].
 
-You can preview the theme [here](https://apehex.github.io/jekyll-theme-twenty).
+You can preview the theme [here](https://apehex.github.io/jekyll-theme-parallelism).
 
-![Twenty Theme](assets/images/screenshot.jpg "Twenty Theme")
+![Parallelism Theme](assets/images/screenshot.jpg "Parallelism Theme")
 
 # Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-twenty"
+gem "jekyll-theme-parallelism"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-theme-twenty
+theme: jekyll-theme-parallelism
 ```
 
 And then execute:
@@ -26,7 +26,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-theme-twenty
+    $ gem install jekyll-theme-parallelism
 
 # Usage
 
@@ -46,7 +46,6 @@ You can use the following custom parameters in `_config.yml`.
 - `facebook_url`
 - `github_url`
 - `gitlab_url`
-- `googleplus_url`
 - `instagram_url`
 - `linkedin_url`
 - `pinterest_url`
@@ -68,7 +67,7 @@ To post your website as a Github page, fork this reposity and create a branch na
 
 # Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/apehex/jekyll-theme-twenty. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant][contributor-covenant] code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/apehex/jekyll-theme-parallelism. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant][contributor-covenant] code of conduct.
 
 # Development
 
@@ -77,54 +76,58 @@ To set up your environment to develop this theme, run `bundle install`.
 To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When the theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git are be bundled.
-To add a custom directory to the theme-gem, please edit the regexp in `jekyll-theme-twenty.gemspec` accordingly.
+To add a custom directory to the theme-gem, please edit the regexp in `jekyll-theme-parallelism.gemspec` accordingly.
 
 # Credits
 
 Original README from HTML5 UP:
 
 ```
-Twenty by HTML5 UP
+Parallelism by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Twenty, a minimal, multi-page responsive site template for HTML5 UP.
+It's done! Parallelism was an idea I mocked up a few months ago but, due to other
+committments, didn't get around to putting to code until recently. Different to
+my more general-purpose freebies, this one's specifically built for portfolio use
+with a very unique look/layout. Hope you enjoy it!
 
-As the name implies, this is my twentieth (!) design for HTML5 UP. Since the last
-few have been single page affairs, I decided to go with something a bit more conventional
-and threw in four extra page layouts. Beyond that, it's the usual drill: fully responsive,
-built on HTML5/CSS3, and CCA licensed like all my other stuff. Sass sources are also
-included for those of you into that sort of thing (entirely optional).
+Demo images* are courtesy of the supremely talented photographer Felicia Simion.
+If you like photography or just enjoy being blown away by awesome stuff, check
+out her portfolio for more stunning images:
 
-Special thanks to Michael Domaradzki (md.photomerchant.net) for allowing me to use
-his excellent photos in Twenty's demo*.
+http://ineedchemicalx.deviantart.com/
 
 (* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Michael's work without his explicit permission!)
+and/or use any of Felicia's work without her explicit permission!)
+
+Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
 
 AJ
 aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
 
 
 Credits:
 
     Demo Images:
-        Michael Domaradzki (md.photomerchant.net)
-            "Night Vision"
-            "At the Station II"
-            "Airchitecture II"
-            "Livewires II"
-            "Midnite Xpress I"
+        Felicia Simion (ineedchemicalx.deviantart.com)
+            "Pasadena" (ineedchemicalx.deviantart.com/art/Pasadena-357650036)
+            "Your really got me" (ineedchemicalx.deviantart.com/art/You-really-got-me-345249340)
+            "Ad Infinitum" (ineedchemicalx.deviantart.com/art/Ad-infinitum-354203162)
+            "Different." (ineedchemicalx.deviantart.com/art/Different-353708988)
+            "Elysium" (ineedchemicalx.deviantart.com/art/Elysium-355393900)
+            "Kingdom of the Wind" (ineedchemicalx.deviantart.com/art/Kingdom-of-the-Wind-348268044)
+            "The Pursuit" (ineedchemicalx.deviantart.com/art/The-Pursuit-355003425)
+            "Boundless" (ineedchemicalx.deviantart.com/art/Boundless-291831118)
+            "The Spectators" (ineedchemicalx.deviantart.com/art/The-Spectators-342155982)
 
     Icons:
         Font Awesome (fontawesome.io)
 
     Other:
         jQuery (jquery.com)
-        Scrollex (github.com/ajlkn/jquery.scrollex)
+        normalizeWheel (@miorel + @pieterv of Facebook)
         Responsive Tools (github.com/ajlkn/responsive-tools)
 ```
 
