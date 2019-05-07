@@ -27,6 +27,7 @@ twitter_url: https://github.com/apehex
 
 # Optional elements
 logo_url: /assets/images/logo.svg
+favicon_url: /assets/images/favicon.ico
 legal_terms_url: /legal-terms
 privacy_policy_url: /privacy-policy
 
