@@ -33,8 +33,12 @@ privacy_policy_url: /privacy-policy
 
 # Collections
 collections:
-  articles:
+  demo:
     output: false
+    date: 2019-05-07
+  shiva:
+    output: false
+    date: 2019-05-08
 
 # Build settings
 permalink: pretty
