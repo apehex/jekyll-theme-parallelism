@@ -1,99 +1,30 @@
 ---
 layout: default
 ---
+{% assign collections = site.collections | sort: 'date' | shift %}
+
 <!-- Main -->
 <section id="main">
 
 	<!-- Items -->
-		<div class="items">
-
-			<div class="item intro span-2">
-				<h1>{{ site.title }}</h1>
-				<p>{{ site.subtitle }}<br/></p>
-			</div>
-
-			<article class="item thumb span-1">
-				<h2>You really got me</h2>
-				<a href="{{ 'assets/images/fulls/01.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/01.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-			<article class="item thumb span-2">
-				<h2>Ad Infinitum</h2>
-				<a href="{{ 'assets/images/fulls/02.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/02.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-			<article class="item thumb span-1">
-				<h2>Different.</h2>
-				<a href="{{ 'assets/images/fulls/03.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/03.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-			<article class="item thumb span-1">
-				<h2>Elysium</h2>
-				<a href="{{ 'assets/images/fulls/04.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/04.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-			<article class="item thumb span-3">
-				<h2>Kingdom of the Wind</h2>
-				<a href="{{ 'assets/images/fulls/05.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/05.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-			<article class="item thumb span-1">
-				<h2>The Pursuit</h2>
-				<a href="{{ 'assets/images/fulls/06.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/06.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-			<article class="item thumb span-2">
-				<h2>Boundless</h2>
-				<a href="{{ 'assets/images/fulls/07.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/07.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-			<article class="item thumb span-2">
-				<h2>The Spectators</h2>
-				<a href="{{ 'assets/images/fulls/08.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/08.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
+	{% for collection in collections %}
+	{% if collection.label != 'posts' %}
+	<div class="items">
+		{% assign docs = collection.docs | sort: 'date' %}
+		{% if forloop.index == 1 %}
+		<div class="item intro span-2">
+			<h1>{{ collection.label }}</h1>
+			<p>{{ site.subtitle }}<br/></p>
 		</div>
-
-	<!-- Items -->
-		<div class="items">
-
-			<article class="item thumb span-3">
-				<h2>Kingdom of the Wind</h2>
-				<a href="{{ 'assets/images/fulls/05.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/05.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-1">
-				<h2>The Pursuit</h2>
-				<a href="{{ 'assets/images/fulls/06.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/06.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-2">
-				<h2>Boundless</h2>
-				<a href="{{ 'assets/images/fulls/07.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/07.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-2">
-				<h2>The Spectators</h2>
-				<a href="{{ 'assets/images/fulls/08.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/08.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-1">
-				<h2>You really got me</h2>
-				<a href="{{ 'assets/images/fulls/01.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/01.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-2">
-				<h2>Ad Infinitum</h2>
-				<a href="{{ 'assets/images/fulls/02.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/02.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-1">
-				<h2>Different.</h2>
-				<a href="{{ 'assets/images/fulls/03.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/03.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-2">
-				<h2>Kingdom of the Wind</h2>
-				<a href="{{ 'assets/images/fulls/05.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/05.jpg' | absolute_url }}" alt=""></a>
-			</article>
-			<article class="item thumb span-1">
-				<h2>Elysium</h2>
-				<a href="{{ 'assets/images/fulls/04.jpg' | absolute_url }}" class="image"><img src="{{ 'assets/images/thumbs/04.jpg' | absolute_url }}" alt=""></a>
-			</article>
-
-		</div>
+		{% endif %}
+		{% for doc in docs %}
+		<article class="item thumb span-{{ doc.span }}">
+			<h2>{{ doc.title }}</h2>
+			<a href="{{ doc.image | absolute_url }}" class="image"><img src="{{ doc.thumb | absolute_url }}" alt=""></a>
+		</article>
+		{% endfor %}
+	</div>
+	{% endif %}
+	{% endfor %}
 
 </section>
