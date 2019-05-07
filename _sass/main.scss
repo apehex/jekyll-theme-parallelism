@@ -106,7 +106,7 @@
 		}
 
 	body {
-		@include vendor('background-image', ('url("assets/images/overlay.png")', 'linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65))', 'url("../../assets/images/bg.jpg")'));
+		@include vendor('background-image', ('url("images/overlay.png")', 'linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65))', 'url("../../assets/images/bg.jpg")'));
 		background-position: top left, bottom left, auto;
 		background-size: auto, 100% 100%, cover;
 		background-attachment: fixed;
@@ -335,7 +335,7 @@
 
 			&.intro {
 				background-color: #d64760;
-				background-image: url('assets/images/overlay.png');
+				background-image: url('images/overlay.png');
 				@include vendor('display', 'flex');
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
