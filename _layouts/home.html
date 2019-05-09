@@ -8,7 +8,7 @@ layout: default
 
     <!-- Items -->
     {% for collection in collections %}
-    {% if collection.label != 'posts' %}
+    {% if collection.docs.size > 0 %}
     <div class="items">
         {% assign docs = collection.docs | sort: 'date' %}
         {% if forloop.index == 1 %}
