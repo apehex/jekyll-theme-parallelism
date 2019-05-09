@@ -33,7 +33,7 @@ privacy_policy_url: /privacy-policy
 
 # Collections
 collections:
-  demo:
+  parallelism:
     output: false
     date: 2019-05-07
   shiva:
