@@ -3,15 +3,15 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-parallelism"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["David Mougeolle"]
   spec.email         = ["david.mougeolle@moodule.net"]
 
-  spec.summary       = 'A Jekyll version of the \"Parallelism\" theme by HTML5 UP.'
+  spec.summary       = 'A Jekyll version of the \"Parallelism\" theme by HTML5 UP, eased by lots of automations.'
   spec.homepage      = "https://github.com/moodule/jekyll-theme-parallelism"
   spec.license       = "CC-BY-3.0"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|sitemap.md)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
