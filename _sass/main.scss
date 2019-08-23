@@ -22,6 +22,10 @@
 		xsmall:  ( null,    480px  )
 	));
 
+// Components
+
+@import 'components/cookieconsent';
+
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
@@ -502,7 +506,7 @@
 
 			&:last-child {
 				text-align: right;
-				max-width: 36em;
+				// max-width: 36em;
 			}
 		}
 
