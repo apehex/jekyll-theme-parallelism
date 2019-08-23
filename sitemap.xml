@@ -1,0 +1,38 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/contact/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/legal-terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/legal-terms/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/privacy-policy/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+</urlset>
