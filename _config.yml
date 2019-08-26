@@ -40,6 +40,30 @@ collections:
     output: false
     date: 2019-05-08
 
+# Default settings
+defaults:
+  -
+    scope:
+      type: "redirects"
+    values:
+      layout: "redirect"
+      lang: "x-default"
+  -
+    scope:
+      path: ""
+    values:
+      menu: default
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "fr"
+    values:
+      lang: "fr"
+
 # Build settings
 permalink: pretty
 markdown: kramdown
