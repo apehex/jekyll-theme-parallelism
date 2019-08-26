@@ -1,16 +1,26 @@
+---
+---
+{% assign lang = page.lang | default: site.lang | default: 'en' %}
+{% assign menu = site.data.translations.menu[page.menu][lang] %}
+{% assign title = page.title | default: site.title %}
+{% assign subtitle = page.subtitle | default: site.subtitle %}
+{% assign description = page.description | default: site.description %}
+
 <!DOCTYPE HTML>
 <!--
     Parallelism by HTML5 UP
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="{{ lang }}">
     
-    {% include head.html %}
+    {% include head.html title=title subtitle=subtitle %}
 
     <body class="is-preload">
         
         <div id="wrapper">
+
+            {% include language.html %}
 
             {{ content }}
 
