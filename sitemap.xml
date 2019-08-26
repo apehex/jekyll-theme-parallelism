@@ -4,33 +4,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   
-  <url>
-    <loc>https://apehex.github.io/jekyll-theme-parallelism/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/contact/" />
-    <changefreq>weekly</changefreq>
-  </url>
-  
-  
   
   <url>
     <loc>https://apehex.github.io/jekyll-theme-parallelism/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/" />
+    
+    <xhtml:link rel="alternate" hreflang="" href="https://apehex.github.io/jekyll-theme-parallelism/" />
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/" />
+    
     <changefreq>weekly</changefreq>
   </url>
   
   
   
+  
   <url>
-    <loc>https://apehex.github.io/jekyll-theme-parallelism/legal-terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/legal-terms/" />
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/en/contact/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/contact/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/contact/" />
+    
     <changefreq>weekly</changefreq>
   </url>
   
   
   
+  
   <url>
-    <loc>https://apehex.github.io/jekyll-theme-parallelism/privacy-policy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/privacy-policy/" />
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/en/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="" href="https://apehex.github.io/jekyll-theme-parallelism/" />
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/en/legal-terms/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/legal-terms/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/legal-terms/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/en/privacy-policy/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/privacy-policy/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/privacy-policy/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/fr/contact/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/contact/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/contact/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/fr/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="" href="https://apehex.github.io/jekyll-theme-parallelism/" />
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/fr/legal-terms/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/legal-terms/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/legal-terms/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://apehex.github.io/jekyll-theme-parallelism/fr/privacy-policy/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/jekyll-theme-parallelism/en/privacy-policy/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/jekyll-theme-parallelism/fr/privacy-policy/" />
+    
     <changefreq>weekly</changefreq>
   </url>
   
