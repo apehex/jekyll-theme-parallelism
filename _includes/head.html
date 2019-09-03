@@ -6,11 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ 'assets/css/styles.css' | absolute_url }}" />
-    {% if site.favicon_url %}
-    <link rel="icon" href="{{ site.favicon_url | absolute_url }}" />
-    {% endif %}
-    {% for page in pages %}
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
-    {% endfor %}
+    {% if site.favicon.url %}<link rel="icon" href="{{ site.favicon.url | absolute_url }}" />{% endif %}
+    {% for page in pages %}<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
     <noscript><link rel="stylesheet" href="{{ 'assets/css/noscript.css' | absolute_url }}" /></noscript>
 </head>
