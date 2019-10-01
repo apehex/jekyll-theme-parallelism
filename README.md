@@ -14,6 +14,8 @@ You can preview the theme [here](https://apehex.github.io/jekyll-theme-paralleli
 
 > **Customizable**: theme colors, menu, social items can be changed from a central config file
 
+> **Vector images**: the theme images are vectorized, render smoothly on any display and can be dynamically styled
+
 > **GDPR ready**: bundled with a cookie consent plugin and a boilerplate privacy policy compliant with GDPR
 
 > **SEO ready**: sitemap, robots.txt and tags are automatically generated for the website
