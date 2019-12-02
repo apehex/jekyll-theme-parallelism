@@ -1,30 +1,27 @@
 ---
 layout: default
 ---
-{% assign collections = site.collections | sort: 'date' | shift %}
-
+{%- assign collections = site.collections | sort: 'date' | shift -%}
 <!-- Main -->
 <section id="main">
-
     <!-- Items -->
-    {% for collection in collections %}
-    {% if collection.docs.size > 0 %}
+    {%- for collection in collections -%}
+    {%- if collection.docs.size > 0 -%}
     <div class="items">
-        {% assign docs = collection.docs | sort: 'date' %}
-        {% if forloop.index == 1 %}
+        {%- assign docs = collection.docs | sort: 'date' -%}
+        {%- if forloop.index == 1 -%}
         <div class="item intro span-2">
             <h1>{{ site.title }}</h1>
             <p>{{ site.subtitle }}<br/></p>
         </div>
-        {% endif %}
-        {% for doc in docs %}
+        {%- endif -%}
+        {%- for doc in docs -%}
         <article class="item thumb span-{{ doc.span }}">
             <h2>{{ doc.title }}</h2>
             <a href="{{ doc.image | absolute_url }}" class="image"><img src="{{ doc.thumb | absolute_url }}" alt=""></a>
         </article>
-        {% endfor %}
+        {%- endfor -%}
     </div>
-    {% endif %}
-    {% endfor %}
-
+    {%- endif -%}
+    {%- endfor -%}
 </section>
