@@ -16,8 +16,18 @@
     </div>
     <div class="col-12">
       <ul class="buttons">
+        <li><div id="recaptcha-checkbox" ></div></li>
         <li><input type="submit" class="special" value="Send Message" /></li>
       </ul>
     </div>
   </div>
 </form>
+<script type="text/javascript">
+    var onloadCallback = function() {
+        grecaptcha.render('recaptcha-checkbox', {
+            'sitekey' : '{{ site.recaptcha.sitekey }}',
+            'theme' : 'dark'
+        });
+    };
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
