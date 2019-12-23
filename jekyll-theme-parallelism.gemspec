@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-parallelism"
-  spec.version       = "0.1.5"
+  spec.version       = "0.1.7"
   spec.authors       = ["apehex"]
   spec.email         = ["apehex@protonmail.com"]
 
