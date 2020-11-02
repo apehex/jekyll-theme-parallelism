@@ -32,7 +32,7 @@ Addd this line to your Jekyll site's `Gemfile`:
 gem "jekyll-theme-parallelism"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+And add this line to your JJekyll site's `_config.yml`:
 
 ```yaml
 theme: jekyll-theme-parallelism
